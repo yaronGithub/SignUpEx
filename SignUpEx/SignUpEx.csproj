@@ -49,17 +49,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <AndroidResource Remove="NewFolder\**" />
 	  <AndroidResource Remove="Platforms\NewFolder\**" />
-	  <Compile Remove="NewFolder\**" />
 	  <Compile Remove="Platforms\NewFolder\**" />
-	  <EmbeddedResource Remove="NewFolder\**" />
 	  <EmbeddedResource Remove="Platforms\NewFolder\**" />
-	  <MauiCss Remove="NewFolder\**" />
 	  <MauiCss Remove="Platforms\NewFolder\**" />
-	  <MauiXaml Remove="NewFolder\**" />
 	  <MauiXaml Remove="Platforms\NewFolder\**" />
-	  <None Remove="NewFolder\**" />
 	  <None Remove="Platforms\NewFolder\**" />
 	</ItemGroup>
 
@@ -68,7 +62,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="SignUpContentPage.xaml">
+	  <MauiXaml Update="Views\SignUpContentPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

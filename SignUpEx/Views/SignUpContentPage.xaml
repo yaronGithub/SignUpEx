@@ -14,5 +14,10 @@
             Placeholder="Enter password"/>
         <Button 
             Text="sign up"/>
+        <Button 
+            Text="cancel"/>
+        <Label
+            Text="{Binding Msg}"
+            BackgroundColor="{Binding Color}"/>
     </VerticalStackLayout>
 </ContentPage>

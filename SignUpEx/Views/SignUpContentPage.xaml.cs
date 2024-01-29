@@ -5,6 +5,6 @@ public partial class SignUpContentPage : ContentPage
 	public SignUpContentPage()
 	{
 		InitializeComponent();
-		this.BindingContext = this;
+		this.BindingContext = new SignUpViewModel();
 	}
 }
