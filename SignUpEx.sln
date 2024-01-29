@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignUpEx", "SignUpEx\SignUpEx.csproj", "{74B8E8AF-2AB6-4A4A-83E3-ECB8D1C7ECAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74B8E8AF-2AB6-4A4A-83E3-ECB8D1C7ECAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B8E8AF-2AB6-4A4A-83E3-ECB8D1C7ECAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B8E8AF-2AB6-4A4A-83E3-ECB8D1C7ECAB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{74B8E8AF-2AB6-4A4A-83E3-ECB8D1C7ECAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B8E8AF-2AB6-4A4A-83E3-ECB8D1C7ECAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B8E8AF-2AB6-4A4A-83E3-ECB8D1C7ECAB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20CA19E6-0D4E-40B0-8315-933C170E9A78}
+	EndGlobalSection
+EndGlobal
