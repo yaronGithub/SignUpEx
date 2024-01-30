@@ -1,9 +1,11 @@
-﻿using System;
+﻿using SignUpEx.Service;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Google.Crypto.Tink.Subtle;
 
 namespace SignUpEx.ViewModels
 {
@@ -61,6 +63,14 @@ namespace SignUpEx.ViewModels
         }
         
         public Command GetUserCommand { get; set; }
+        public void LoginCheck()
+        {
+            UsersService service = new UsersService();
+            if (service.Login(Usernm, Pass))
+            {
+                
+            }
+        }
 
     }
 }
