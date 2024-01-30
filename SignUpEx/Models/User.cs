@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SignUpEx
 {
-    internal class User
+    public class User
     {
         private string username;
         private string password;

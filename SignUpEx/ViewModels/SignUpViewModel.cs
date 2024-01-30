@@ -68,8 +68,20 @@ namespace SignUpEx.ViewModels
             UsersService service = new UsersService();
             if (service.Login(Usernm, Pass))
             {
-                
+                Usernm = "";
+                Pass = "";
+                Color = Colors.Green;
+                Msg = "Successful login!";
+            }else
+            {
+                Color = Colors.Red;
+                Msg = "Login failed!";
             }
+        }
+
+        public SignUpViewModel()
+        {
+            GetUserCommand = new Command(LoginCheck);
         }
 
     }

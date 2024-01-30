@@ -13,7 +13,7 @@
         <Entry 
             Placeholder="Enter password"/>
         <Button 
-            Text="sign up"/>
+            Text="login"/>
         <Button 
             Text="cancel"/>
         <Label
